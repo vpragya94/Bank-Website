@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>New User Registration</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+<div class="form">
+    <form class="register-form">
+    <h2>User Driven Registration-New User</h2>
+    <label for="Acc">Account Number*</label><br>
+    <input type="number" id="acc" name="acc" size="50" required><br>
+    <label for="CIF">CIF Number*</label><br>
+    <input type="number" id="CIF" name="CIF" size="50" required><br>
+    <label for="Branch">Branch Code*</label><br>
+    <input type="number" id="Branch" name="Branch" maxlength="5" size="5" required><br>
+    <label for="Country">Country*</label><br>
+    <input type="text" id="Country" name="Country" required><br>
+    <label for="Mob">Registered Mobile Number*</label><br>
+    <input type="number" id="Mob" name="Mob" maxlength="10" size="10" required><br>
+    <label for="email">E-mail*(Optional)</label><br><input type="email" id="email" name="email"><br>
+    <label for="DOB">D-O-B*</label>
+    <input type="datetime-local" id="DOB" name="DOB" required><br>
+    <label for="Gender">Gender*</label>
+    <select id="Gender" name="Gender" size="1">
+    <option value="Male">Male</option>
+    <option value="Female">Female</option>
+    <option value="Others">Others</option>
+    </select><br><br>
+    <label for="agree">Accept Terms & Conditions*</label><br><br>
+    <input type="checkbox" id="agree" name="agree" value="Accept" required><br>
+    <button type="Submit" onclick="alert('Are You Sure ?')">SUBMIT</button>  
+    <p class="meassage">Already Registered? <a href="LOGIN.html"> Login</a></p>
+    </form>
+    </div>

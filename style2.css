@@ -1,0 +1,77 @@
+body{
+    background-image:url(Images/pexels-photo-593322.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: centre;
+    }
+.form{
+    position: relative;
+    z-index: 1;
+    background-image:url(Images/pic3.png);
+    max-width: 360px;
+    margin: 0 auto 100px;
+    border-radius: 10px;
+    padding: 45px;
+    text-align: centre;
+}
+.form label{
+    font-family:"roboto",sans-serif;
+    
+    outline:0;
+    background: #ffffff;
+    width: 100%;
+    bordor: 0;
+    margin:5px;
+    padding: 10px;
+}
+.form input{
+    font-family: "Roboto",sans-serif;
+    outline: 1;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 5px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+.form input[type="checkbox"]
+{
+    font-family: "Roboto",sans-serif;
+    outline: 1;
+    background: #f2f2f2;
+    width: 5%;
+    border: 0;
+    margin: 0 0 5px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 14px;
+    
+}
+.form button{
+    font-family: "roboto",sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #4CAF50;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #ffffff;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

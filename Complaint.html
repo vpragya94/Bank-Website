@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-img {
+  background-image: url("Images/pexels-photo-461077.jpg");
+  height: 140vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.container {
+  position: absolute;
+  border-radius: 5px;
+  right: 0;
+  top: 0%;
+  left: 40%;
+  max-width: 300px;
+  padding: 16px;
+  background-image: url(Images/pic3.png);
+}
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+.btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+.btn:hover {
+  opacity: 1;
+}
+body{
+  text-align: center;
+  background-color: linen;
+}
+</style>
+</head>
+<body>
+
+<h2>PMI BANK OF INDIA-CUSTOMER COMPLAIANT FORM</h2>
+<div class="bg-img">
+  <form class="container">
+    <h1>Click here to Check Complaint Status</h1>
+
+    <label for="customer type"><b>Customer Type</b></label>
+    <input type="text" placeholder="Customer Type" name="customer type" required>
+
+    <label for="account number"><b>Account Number</b></label>
+    <input type="text" placeholder="Account Number" name="" required>
+
+    <label for="name of complaiant"><b>Name of Complaiant</b></label>
+    <input type="text" placeholder="Name of complaiant" name="" required>
+
+    <label for="branch code"><b>Branch Code</b></label>
+    <input type="text" placeholder="Branch Code" name="" required>
+
+    <label for="mobile no"><b>Mobile No</b></label>
+    <input type="text" placeholder="Mobile No" name="" required>
+
+     
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Email" name="" required>
+    
+     
+    <label for="category of complaiant"><b>Category of Complaiant</b></label>
+    <input type="text" placeholder="Category of Complaiant" name="" required>
+    
+    
+    <label for="please give brief detail of your complaiant"><b>Please Give brief detail of your complaiant </b></label>
+    <input type="text" placeholder="please give brief detail of your complaiant" name="" required>
+
+
+
+   <button type="submit" class="btn">Login</button>
+  </form>
+</div>
+
+</body>
+</html>
